@@ -1,4 +1,6 @@
+import 'package:chat_app_firebase/core/themes/themes.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'core/routes/app_routes.dart';
 
@@ -15,6 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routerConfig: router,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        textTheme: GoogleFonts.interTextTheme(),
+      ),
     );
   }
 }

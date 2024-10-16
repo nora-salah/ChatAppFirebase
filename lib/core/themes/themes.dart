@@ -1,4 +1,4 @@
-import 'package:chat_app_firebase/core/utils/themes/asset_colors.dart';
+import 'package:chat_app_firebase/core/themes/colors_app.dart';
 import 'package:flutter/material.dart';
 
 abstract class Styles {
