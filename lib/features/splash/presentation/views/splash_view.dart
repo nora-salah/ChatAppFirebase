@@ -1,10 +1,10 @@
-import 'package:chat_app_firebase/core/conatant/assets_images.dart';
 import 'package:chat_app_firebase/core/themes/colors_app.dart';
 import 'package:chat_app_firebase/core/themes/themes.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../core/conatant/app_assets.dart';
+import '../../../../core/conatant/app_strings.dart';
 import '../../../../core/functions/navigation.dart';
-import '../../../../core/conatant/app_string.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);

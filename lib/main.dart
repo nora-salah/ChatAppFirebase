@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       routerConfig: router,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
-        textTheme: GoogleFonts.interTextTheme(),
+       textTheme: GoogleFonts.interTextTheme(),
       ),
     );
   }
