@@ -34,11 +34,11 @@ class _SplashViewState extends State<SplashView> {
           child: Column(
             children: [
               SizedBox(
-                height: 200,
+                height: 150,
               ),
               SizedBox(
-                  height: 300,
-                  width: 300,
+                  height: 220,
+                  width: 280,
                   child: Image(
                     image: AssetImage(
                       AppAssets.logo,
@@ -49,11 +49,11 @@ class _SplashViewState extends State<SplashView> {
                 style: Styles.textStyle15,
               ),
               SizedBox(
-                height: 200,
+                height: 75,
               ),
               Text(
                 AppStrings.theBest,
-                style: Styles.textStyle24,
+                style: Styles.textStyle18,
               ),
             ],
           ),
